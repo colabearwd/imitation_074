@@ -7,14 +7,14 @@
     clear: both;
 }
 body{
-    background: url("images/bg.jpg") repeat;
+    background: url("../images/bg.jpg") repeat;
     font-size: 12px;
     font-family: Georgia ,"Times New Roman",Times,Serif;
 
 }
 /*导航栏 topbar*/
 #topbar{
-    background: url("images/topbg.jpg") repeat-x;
+    background: url("../images/topbg.jpg") repeat-x;
     height: 89px;
 }
 #topbar #topsection{
@@ -103,7 +103,7 @@ body{
     float: left;
     height: 30px;
     padding: 9px 15px 0px 17px;
-    background: url("images/menubg1.jpg") no-repeat right top;
+    background: url("../images/menubg1.jpg") no-repeat right top;
     color: #9B7746;
 }
 #topmenu a:hover{
@@ -112,7 +112,7 @@ body{
     float: left;
     height: 30px;
     padding: 9px 15px 0px 17px;
-    background: url("images/menubg2.jpg") no-repeat right top;
+    background: url("../images/menubg2.jpg") no-repeat right top;
     color: #333333;
 }
 #topmenu .active a,
@@ -123,12 +123,12 @@ body{
     float: left;
     height: 30px;
     padding: 9px 15px 0px 17px;
-    background: url("images/menubg1.jpg") no-repeat right top;
+    background: url("../images/menubg1.jpg") no-repeat right top;
     color: #9B7746;
 }
 /*wrap & header*/
 #wrap #header{
-    background: url("images/header.jpg") no-repeat;
+    background: url("../images/header.jpg") no-repeat;
     height: 229px;
     margin-top: 10px;
     padding-top: 10px;
@@ -175,7 +175,7 @@ body{
 #aboutdiv h2,
 #highlights h2
 {
-    background: url("images/h2line.gif") repeat-x left bottom;
+    background: url("../images/h2line.gif") repeat-x left bottom;
     margin: 0px 3px 5px 0px;
     padding: 5px;
 }
@@ -222,23 +222,23 @@ body{
     padding: 0px 3px 3px 20px;
     margin: 0px 5px 5px 0px;
 }#homecontents p{
-     margin: 15px 0px 10px 0px;
+    margin: 15px 0px 10px 0px;
  }
-#homecontents h2{
-    color: #8D6932;
-    border-bottom: solid 1px #e1d2a6;
-    font-size: 22px;
-}
-#homecontents h2 a{
-    text-decoration: none;
-    color: #8D6932;
-}
-#homecontents h2 a:hover{
-    text-decoration: none;
-    color: #000000;
-    border-bottom: solid 1px #000000;
-    background: #FFFFCC;
-}
+ #homecontents h2{
+     color: #8D6932;
+     border-bottom: solid 1px #e1d2a6;
+     font-size: 22px;
+ }
+ #homecontents h2 a{
+     text-decoration: none;
+     color: #8D6932;
+ }
+ #homecontents h2 a:hover{
+     text-decoration: none;
+     color: #000000;
+     border-bottom: solid 1px #000000;
+     background: #FFFFCC;
+ }
 .postinfo{
     text-align: right;
     color: #999999;
@@ -248,7 +248,7 @@ body{
 /*footercontents-previews*/
 #footer{
     padding: 60px 0px 0px 15px;
-    background: #333333 url("images/footer.jpg") repeat-x;
+    background: #333333 url("../images/footer.jpg") repeat-x;
 }
 #footercontent{
     width: 862px;
@@ -274,7 +274,7 @@ body{
     margin: 20px 0px 20px 0px;
     padding: 20px 0px 20px 0px ;
     color: #ffffff;
-    background: url("images/copyrightbg.jpg");
+    background: url("../images/copyrightbg.jpg");
     border-top: solid 1px #333333;
 }
 #footer a img,
@@ -301,99 +301,13 @@ body{
     color: #FFFFFF;
 }
 
-/*blog*/
-#headershort{
-    background: url("images/headershort.jpg") no-repeat;
-    height: 119px;
-}
-#headershort .subheader{
-    font-size: 48px;
-    color: white;
-    padding: 42px 55px 0px 20px;
-}
 
-#left{
-    width:570px;
-    float: left;
-    background: url("images/sidebarbg1.jpg") repeat-y right;
 
-}
-#left h2{
-    font-size: 26px;
-    border: solid 1px #ECDECD;
-    padding: 5px;
-}
-#left h3{
-    font-size: 20px;
-}
-#left h4{
-    font-size: 18px;
-}
-#left h5{
-    font-size: 14px;
-}
-#left h3,#left h4,#left h5{
-    color: #009999;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-}
-#contents a{
-    text-decoration: none;
-}
-.postdate{
-   text-align: right;
 
-}
-#left ul{
-    padding: 10px;
-    color: #666666;
-    list-style: none;
-}
-#left ul li{
-    padding: 3px;
-    border-bottom: dashed 1px #e8d8b3;
-}
-#left ol{
-    padding: 10px;
-    margin:10px;
-    color: #666666;
-}
-#left ol li{
-    padding: 3px;
-}
-#left .alignleft{
-    float: left;
-}
-#left .alignright{
-    float: right;
-}
-#left img{
-    background: #FFFFFF;
-    border:solid 1px #cccccc;
-    padding: 3px;
-    margin: 5px;
-}
-/*sidebar*/
-#sidebar{
-    margin-left: 605px;
 
-}
-#sidebar ul{
-    list-style: none;
 
-}
-#sidebar #categorious li,
-#sidebar #blogroll li{
-    text-align: center;
-    line-height: 30px;
-    border-bottom: solid 1px #e8ddb3;
-}
-#sidebar #categorious li:hover,
-#sidebar #blogroll li:hover{
-    height: 30px;
-    background: #FDFDDF;
-}
+
+
 
 
 

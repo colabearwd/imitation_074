@@ -7,14 +7,14 @@
     clear: both;
 }
 body{
-    background: url("images/bg.jpg") repeat;
+    background: url("../images/bg.jpg") repeat;
     font-size: 12px;
     font-family: Georgia ,"Times New Roman",Times,Serif;
 
 }
 /*导航栏 topbar*/
 #topbar{
-    background: url("images/topbg.jpg") repeat-x;
+    background: url("../images/topbg.jpg") repeat-x;
     height: 89px;
 }
 #topbar #topsection{
@@ -103,7 +103,7 @@ body{
     float: left;
     height: 30px;
     padding: 9px 15px 0px 17px;
-    background: url("images/menubg1.jpg") no-repeat right top;
+    background: url("../images/menubg1.jpg") no-repeat right top;
     color: #9B7746;
 }
 #topmenu a:hover{
@@ -112,7 +112,7 @@ body{
     float: left;
     height: 30px;
     padding: 9px 15px 0px 17px;
-    background: url("images/menubg2.jpg") no-repeat right top;
+    background: url("../images/menubg2.jpg") no-repeat right top;
     color: #333333;
 }
 #topmenu .active a,
@@ -123,12 +123,12 @@ body{
     float: left;
     height: 30px;
     padding: 9px 15px 0px 17px;
-    background: url("images/menubg1.jpg") no-repeat right top;
+    background: url("../images/menubg1.jpg") no-repeat right top;
     color: #9B7746;
 }
 /*wrap & header*/
 #wrap #header{
-    background: url("images/header.jpg") no-repeat;
+    background: url("../images/header.jpg") no-repeat;
     height: 229px;
     margin-top: 10px;
     padding-top: 10px;
@@ -175,7 +175,7 @@ body{
 #aboutdiv h2,
 #highlights h2
 {
-    background: url("images/h2line.gif") repeat-x left bottom;
+    background: url("../images/h2line.gif") repeat-x left bottom;
     margin: 0px 3px 5px 0px;
     padding: 5px;
 }
@@ -248,7 +248,7 @@ body{
 /*footercontents-previews*/
 #footer{
     padding: 60px 0px 0px 15px;
-    background: #333333 url("images/footer.jpg") repeat-x;
+    background: #333333 url("../images/footer.jpg") repeat-x;
 }
 #footercontent{
     width: 862px;
@@ -274,7 +274,7 @@ body{
     margin: 20px 0px 20px 0px;
     padding: 20px 0px 20px 0px ;
     color: #ffffff;
-    background: url("images/copyrightbg.jpg");
+    background: url("../images/copyrightbg.jpg");
     border-top: solid 1px #333333;
 }
 #footer a img,
